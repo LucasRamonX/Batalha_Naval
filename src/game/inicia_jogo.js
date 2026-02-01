@@ -18,9 +18,6 @@ export async function inicioJogo() {
 
   rl.close();
 
-  let pontos_oponente = 0;
-  let pontos_jogador = 0;
-
   const posicao_do_barco_oponente = Math.floor(Math.random() * 10) + 1;
   const posicao_do_barco_user = Math.floor(Math.random() * 10) + 1;
 
